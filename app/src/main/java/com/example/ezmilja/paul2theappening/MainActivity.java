@@ -9,13 +9,28 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {}
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
 
 
 // This is how you comment xoxoxoxoxoxoxoxxo
 // HI IM ANNIE
 // This is how you comment xoxoxoxoxoxoxo
+
 // Sean is a such a lad
 // Fred Kelleherr
 // Does this work
-//why cant i add a comment?! :(
+
+
+
+// 11-06-2018
+
+
+
